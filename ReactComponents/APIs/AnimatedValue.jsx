@@ -1,0 +1,11 @@
+// setValue(value: number);
+// setOffset(offset: number);
+// flattenOffset();
+// extractOffset();
+// addListener(callback: (state: {value: number}) => void): string;
+// removeListener(id: string);
+// removeAllListeners();
+// stopAnimation(callback?: (value: number) => void);
+// resetAnimation(callback?: (value: number) => void);
+// interpolate(config: InterpolationConfigType);
+// animate(animation, callback);
