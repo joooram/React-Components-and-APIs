@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Pressable, StyleSheet, Text, View} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => {
+const Press = () => {
   const [timesPressed, setTimesPressed] = useState(0);
 
   let textLog = '';
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Press;

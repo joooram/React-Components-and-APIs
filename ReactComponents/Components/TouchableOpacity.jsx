@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => {
+const TO = () => {
   const [count, setCount] = useState(0);
   const onPress = () => setCount(prevCount => prevCount + 1);
 
@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default TO;

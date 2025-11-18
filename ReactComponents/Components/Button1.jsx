@@ -4,7 +4,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 const Separator = () => <View style={styles.separator} />;
 
-const App = () => (
+const Buttons = () => (
   <SafeAreaProvider>
     <SafeAreaView style={styles.container}>
       <View>
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Buttons;

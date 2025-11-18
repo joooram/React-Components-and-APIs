@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Alert, Modal, StyleSheet, Text, Pressable, View} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => {
+const Modals = () => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
     <SafeAreaProvider>
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Modals;

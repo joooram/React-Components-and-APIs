@@ -21,7 +21,7 @@ const Item = ({title}) => (
   </View>
 );
 
-const App = () => (
+const VIEWL = () => (
   <SafeAreaProvider>
     <SafeAreaView style={styles.container} edges={['top']}>
       <VirtualizedList
@@ -54,4 +54,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default VIEWL;

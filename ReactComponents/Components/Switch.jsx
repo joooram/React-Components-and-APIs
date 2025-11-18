@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Switch, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => {
+const SW = () => {
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default SW;

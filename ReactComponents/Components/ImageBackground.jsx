@@ -4,7 +4,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 const image = {uri: 'https://legacy.reactjs.org/logo-og.png'};
 
-const App = () => (
+const Img = () => (
   <SafeAreaProvider>
     <SafeAreaView style={styles.container} edges={['left', 'right']}>
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Img;

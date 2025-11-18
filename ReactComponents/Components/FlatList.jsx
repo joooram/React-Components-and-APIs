@@ -3,7 +3,7 @@ import {ActivityIndicator, StyleSheet} from 'react-native';
 // This import requires the 'react-native-safe-area-context' package to be installed!
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => (
+const FlatLists = () => (
   <SafeAreaProvider>
     <SafeAreaView style={[styles.container, styles.horizontal]}>
       <ActivityIndicator />
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default FlatLists;

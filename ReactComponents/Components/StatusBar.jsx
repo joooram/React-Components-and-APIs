@@ -14,7 +14,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 const STYLES = ['default', 'dark-content', 'light-content']; // Removed 'as const'
 const TRANSITIONS = ['fade', 'slide', 'none']; // Removed 'as const'
 
-const App = () => {
+const SB = () => {
   const [hidden, setHidden] = useState(false);
   
   // Removed type annotation <StatusBarStyle>
@@ -109,4 +109,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default SB;

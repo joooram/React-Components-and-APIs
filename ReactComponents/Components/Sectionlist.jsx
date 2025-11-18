@@ -21,7 +21,7 @@ const DATA = [
   },
 ];
 
-const App = () => (
+const SL = () => (
   <SafeAreaProvider>
     <SafeAreaView style={styles.container} edges={['top']}>
       <SectionList
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default SL;

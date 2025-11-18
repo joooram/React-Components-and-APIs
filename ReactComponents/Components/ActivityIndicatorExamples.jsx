@@ -2,7 +2,6 @@ import React from 'react';
 import {ActivityIndicator, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-// Rename 'const App' to 'const ActivityIndicatorExample'
 const ActivityIndicatorExample = () => (
   <SafeAreaProvider>
     <SafeAreaView style={[styles.container, styles.horizontal]}>

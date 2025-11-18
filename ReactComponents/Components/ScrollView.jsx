@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, ScrollView, StatusBar} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App = () => (
+const SV = () => (
   <SafeAreaProvider>
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView}>
@@ -34,4 +34,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default SV;
